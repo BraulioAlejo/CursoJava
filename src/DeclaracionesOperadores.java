@@ -2,16 +2,16 @@ public class DeclaracionesOperadores
 {
 	public static void main(String[] args)
 	{
-		final int a = 5;
+		int a = 5;
 		double d = 5;
-		int b;
-		double e;
 		
+		int b;
 		b = 7;
-		e = 7;
+		
+		double e = 7, f;	
 		
 		int c = b / a;
-		double f = e / d;
+		f = e / d;
 		
 		System.out.println(c);
 		System.out.println(f);	
